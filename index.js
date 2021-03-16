@@ -17,7 +17,10 @@ Do the following:
 
    HINT: no function required
 */
-
+let votingAge = 18;
+if (votingAge >= 18){
+  console.log("True");
+}
 
 
 /*
@@ -30,6 +33,14 @@ Do the following:
 
    HINT: no function required
 */
+let Angela = 24;
+let Jesse = 25;
+if (Angela < Jesse) {
+  console.log(Angela+1);
+} else {
+  console.log(Angela);
+}
+
 
 
 
@@ -45,8 +56,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+const string1 = "1999";
+Number("1999");
+console.log(string1);
 
 
 /*
@@ -57,12 +69,11 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
-
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
-
-
+let a = 2;
+let b = 5;
+function multiply(a, b){
+  return result;
+}
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -133,6 +144,15 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
+let computer = Math.random();
+if(computer <= 0.34){
+  computer = 'rock';
+}else if (computer <= 0.67){
+  computer = 'paper';
+}else if (computer >= 0.67){
+  computer = 'scissors';
+}
+console.log(computer);
 
 function game(user, computer){
     /*add your code here*/
