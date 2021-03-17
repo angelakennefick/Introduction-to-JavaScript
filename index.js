@@ -69,11 +69,11 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
-let a = 2;
-let b = 5;
+
 function multiply(a, b){
-  return result;
+  return a * b;
 }
+multiply(2,4);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -85,9 +85,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(c, 7){
+    return c * 7;
 }
+dogYears(2);
 
 
 
@@ -111,15 +112,30 @@ Use the hungryDog function and feeding requirements below to do the following:
      > 15lbs - 2% of their body weight 
 
   Puppies less than 1 year
-     2 - 4 months 10% of their body weight
-     4 - 7 months 5% of their body weight 
-     7 - 12 months 4% of their body weight
+     2 - 4(0.17-0.33) months 10%(0.1) of their body weight
+     4 - 7(0.34-0.58) months 5%(0.05) of their body weight 
+     7 - 12(0.59-1) months 4%(0.04) of their body weight
     
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, age){
+    if (weight > 15 && age >= 1) {
+      return weight * 0.02;
+    }else if (weight >= 11 && age >= 1) {
+      return weight * 0.03;
+    }else if (weight >= 6 && age >=1) {
+      return weight * 0.04;
+    }else if (weight >= 2 && age >=1) {
+      return weight * 0.05;
+    }else if (age >= 0.59) {
+      return weight * 0.04;
+    }else if (age >=0.34) {
+      return weight * 0.05; 
+    }else if (age >= 0.17) {
+      return weight * 0.1;
+    }
+
   }
 
 
