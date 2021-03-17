@@ -73,7 +73,7 @@ Do the following:
 function multiply(a, b){
   return a * b;
 }
-multiply(2,4);
+// multiply(2,4);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -88,7 +88,7 @@ Do the following:
 function dogYears(humanYears) {
     return humanYears * 7;
 }
-dogYears(2);
+// dogYears(2);
 
 
 
@@ -135,7 +135,6 @@ function hungryDog(weight, age){
     }else if (age >= 0.17) {
       return weight * 0.1;
     }
-
   }
 
 
@@ -200,7 +199,7 @@ Using the miles function below do the following:
 function miles(kilometers){
     return kilometers * 0.621371;
   }
-miles(1);
+// miles(1);
 
 
 //Task 5b - Feet to CM
@@ -214,7 +213,7 @@ Using the feet function below do the following:
 function feet(centimeters){
     return centimeters / 30.48;
   }
- feet(10);
+//  feet(10);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -230,7 +229,7 @@ Using the annoyingSong function below do the following:
 function annoyingSong(countdown){
    return `${countdown} bottles of soda on the wall, ${countdown} bottles of soda, take one down pass it around ${countdown - 1} bottles of soda on the wall`;
   }
-annoyingSong(5);
+// annoyingSong(5);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -259,7 +258,7 @@ Using the grade function below do the following:
   }else {
     return "you got an F";
   }
-  
+}
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
